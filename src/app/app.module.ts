@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { UserListComponent } from './feature/user/user-list/user-list.component';
 import { BaseComponent } from './base/base.component';
 import { SortPipe } from './pipe/sort.pipe';
+import { MenuComponent } from './core/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
     BaseComponent,
-    SortPipe
+    SortPipe,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
